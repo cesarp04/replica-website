@@ -1,0 +1,23 @@
+body {
+  background-color: #edeaea;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+/*     Header     */
+.header-title,
+.header-description {
+  margin: 0;
+  padding: 5px 0 5px 10px;
+  font-weight: bold;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
