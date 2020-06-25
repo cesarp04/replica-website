@@ -1,0 +1,11 @@
+{
+  "name": "replica-website",
+  "version": "1.0.0",
+  "description": "Web exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Puentes <caps2695@gmail.com>",
+  "license": "MIT"
+}
