@@ -164,6 +164,21 @@ body {
   grid-column-end: 4;
 }
 
+.footer__container {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__socialMedia {
+  height: 50px;
+}
+.footer__socialMedia img {
+  margin: 0 5px;
+  height: inherit;
+  cursor: pointer;
+}
+
 .container {
   /* border: 1px solid red; */
   width: 1000px;
