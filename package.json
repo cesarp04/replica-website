@@ -4,8 +4,16 @@
   "description": "Web exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Cesar Puentes <caps2695@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0"
+  }
 }

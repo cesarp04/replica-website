@@ -133,6 +133,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 .articles__author {
+  line-height: 30px;
   border-bottom: 1px solid #edeaea;
 }
 .articles__author span {
@@ -153,21 +154,6 @@ body {
   color: #c84451;
   font-weight: bold;
   cursor: pointer;
-}
-.articles__author4 span {
-  color: #c84451;
-  cursor: pointer;
-}
-.articles__description4 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  padding-bottom: 15px;
-}
-
-.articles__description4 span {
-  color: #c84451;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .lastSection__container {
@@ -261,7 +247,7 @@ body {
   }
   .menu {
     position: fixed;
-    background-color: rgba(204, 204, 204, 0.9);
+    background-color: rgba(204, 204, 204, 0.7);
     z-index: 3;
     top: 0;
     left: -100vw;

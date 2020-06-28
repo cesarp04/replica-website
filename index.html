@@ -24,21 +24,25 @@
       <div class="container">
         <ul class="menu__ul">
           <li class="menu__ul-li">
-            <a id="btn-home" class="btn btn-first" onclick="handleOnClick(id)"
+            <a id="btn-home" class="btn btn-first" onclick="colorHome(this)"
               >Home</a
             >
           </li>
           <li class="menu__ul-li">
-            <a id="btn-about" class="btn" onclick="handleOnClick(id)">About</a>
+            <a id="btn-about" class="btn" onclick="colorAbout(this)">About</a>
           </li>
           <li class="menu__ul-li">
-            <a id="btn-briefcase" class="btn">Briefcase</a>
+            <a id="btn-briefcase" class="btn" onclick="colorBriefcase(this)"
+              >Briefcase</a
+            >
           </li>
           <li class="menu__ul-li">
-            <a id="btn-blog" class="btn">Blog</a>
+            <a id="btn-blog" class="btn" onclick="colorBlog(this)">Blog</a>
           </li>
           <li class="menu__ul-li">
-            <a id="btn-contact" class="btn btn-end">Contact</a>
+            <a id="btn-contact" class="btn btn-end" onclick="colorContact(this)"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
@@ -72,86 +76,7 @@
 
     <section class="articles">
       <div class="container">
-        <div class="articles__container">
-          <!-- articulo1 -->
-          <div class="articles__author">
-            <p>
-              El 29 de octubre de 2012 <br />
-              Por <span>Ernesto G. Bustamante</span>
-            </p>
-            <p>3 comentarios</p>
-          </div>
-          <div class="articles__description">
-            <h3 class="articles__description-title">Las bondades de HTML5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              laborum, dolore velit rerum officia eaque. Optio commodi,
-              reiciendis saepe qui non totam corporis assumenda deserunt enim.
-              Officiis, distinctio! Consequatur, adipisci?
-            </p>
-            <span>Leer mas</span>
-          </div>
-          <!----------------------------- articulo 2- -------------------------->
-          <div class="articles__author">
-            <p>
-              El 28 de octubre de 2012 <br />
-              Por <span>Ernesto G. Bustamante</span>
-            </p>
-            <p>21 comentarios</p>
-          </div>
-          <div class="articles__description">
-            <h3 class="articles__description-title">
-              HTML5 en dispositivos moviles
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              laborum, dolore velit rerum officia eaque. Optio commodi,
-              reiciendis saepe qui non totam corporis assumenda deserunt enim.
-              Officiis, distinctio! Consequatur, adipisci?
-            </p>
-            <span>Leer mas</span>
-          </div>
-          <!----------------------------- articulo 3- -------------------------->
-          <div class="articles__author">
-            <p>
-              El 27 de octubre de 2012 <br />
-              Por <span>Ernesto G. Bustamante</span>
-            </p>
-            <p>6 comentarios</p>
-          </div>
-          <div class="articles__description">
-            <h3 class="articles__description-title">
-              Internet Explorer es una basura
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              laborum, dolore velit rerum officia eaque. Optio commodi,
-              reiciendis saepe qui non totam corporis assumenda deserunt enim.
-              Officiis, distinctio! Consequatur, adipisci?
-            </p>
-            <span>Leer mas</span>
-          </div>
-          <!----------------------------- articulo 4- -------------------------->
-          <div class="articles__author4">
-            <p>
-              El 26 de octubre de 2012 <br />
-              Por <span>Ernesto G. Bustamante</span>
-            </p>
-            <p>2 comentarios</p>
-          </div>
-          <div class="articles__description4">
-            <h3 class="articles__description-title">
-              Diseño web en pantalla de retina
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              laborum, dolore velit rerum officia eaque. Optio commodi,
-              reiciendis saepe qui non totam corporis assumenda deserunt enim.
-              Officiis, distinctio! Consequatur, adipisci?
-            </p>
-            <span>Leer mas</span>
-          </div>
-        </div>
+        <div id="articles" class="articles__container"></div>
       </div>
     </section>
 
@@ -196,5 +121,7 @@
     </footer>
 
     <script type="module" src="src/js/burger.js"></script>
+    <script src="./src/js/colorChange.js"></script>
+    <script src="./src/js/articles.js"></script>
   </body>
 </html>
